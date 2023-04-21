@@ -1,0 +1,78 @@
+.header{
+    max-width: var(--containerwidth);
+    overflow-x: hidden;
+}
+
+.header>.section{
+    height: 40px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-inline: 10px;
+}
+.header>.section>.hiring{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding-block: 30px;
+}
+
+.header>.section>.hiring>.hiring-inline{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.header>.section>.hiring>li>a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: --l rem;
+}
+
+.header>.section>.hiring>li>a>p{
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+.loc{
+    display: flex;
+    flex-direction: row;
+    margin-top: 17px;
+    
+}
+
+.header-sec2{
+    width: auto;
+    height: 5rem;
+    background-color: white;
+    display: flex;
+    flex-direction: "row";
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 1rem;
+}
+
+.header>.header-sec2>img{
+    height: 3rem;
+    object-fit: contain;
+}
+.navi{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    list-style-type: none;
+    justify-content: space-evenly;
+    height: 2.8rem;
+    align-items: center;
+    color: white!important;
+    font-size: large!important;
+      
+}
