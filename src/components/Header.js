@@ -2,6 +2,7 @@ import React from 'react'
 import './styles/Header.css'
 import {FaMapMarkerAlt, FaPhone} from "react-icons/fa";
 import Navbar1 from './Navbar1';
+import Banner from './Banner';
 
 function Header() {
   return (
@@ -32,6 +33,7 @@ function Header() {
             <img src="https://woxro.com/public/assets/png/woxrologo.png" width="205.875" height="56" alt="woxro"/>
           </section>
           <Navbar1/>
+          <Banner/>
         </header>
       </div>
     </div>

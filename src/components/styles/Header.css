@@ -72,5 +72,7 @@
     justify-content: space-evenly;
     height: 2.8rem;
     align-items: center;
+    color: white!important;
+    font-size: large!important;
       
 }

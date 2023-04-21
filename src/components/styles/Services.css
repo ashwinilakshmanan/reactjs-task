@@ -1,0 +1,81 @@
+.services-mainHead{
+    padding: 3rem;
+    background-color: white;
+}
+.services-subhead{
+    color:#484545;
+    font-size: small;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    line-height: 1.43;
+    margin-bottom: 2rem;
+}
+.services-head{
+    font-size: 2rem;
+    line-height: 1.5;
+    letter-spacing: 0.06rem;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 2px solid ;
+    padding-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.service-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.service-card:hover{
+    border: 1px solid;
+    box-shadow: 8px 16px #888888;
+}
+
+.cdiv-main{
+    background-color: black;
+}
+.inline-cont{
+       
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    margin: auto;
+}
+.inline-text-cont{
+    flex: 2;
+    display: flex;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    align-items: center;
+}
+.inline-btn-cont{
+    flex: 1.5;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+.inline-btn{
+    display: flex;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    width: 10rem;
+    height: 3.5rem;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}

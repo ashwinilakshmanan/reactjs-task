@@ -52,7 +52,7 @@ function Navbar1() {
               {navLinks.map((nav) => {
 
                 return (
-                  <Nav.Link className="clr" href={nav.link}>
+                  <Nav.Link className="navi" href={nav.link}>
                     {nav.text}
                   </Nav.Link>
                 );
